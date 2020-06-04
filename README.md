@@ -1,1 +1,1 @@
-The commands shell
+The commands permissions
