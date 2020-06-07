@@ -1,2 +1,2 @@
-#!/bin/bashca
+#!/bin/bash
 cat -e /etc/passwd
