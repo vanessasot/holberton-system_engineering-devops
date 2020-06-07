@@ -1,0 +1,2 @@
+#!/bin/bashca
+tar tzvf /etc/passwd | less
