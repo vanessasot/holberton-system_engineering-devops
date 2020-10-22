@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Use the while loop
+phrase="Holberton School"
+i=0
+while ((i<10)); do
+    echo "$phrase"
+    i=$((i + 1))
+done
