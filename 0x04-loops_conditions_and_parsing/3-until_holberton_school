@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Use the until loop
+phrase="Holberton School"
+i=1
+until [ "$i" -gt 10 ]
+do
+    echo "$phrase"
+    i=$((i + 1))
+done
