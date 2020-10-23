@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Numbers of 1 to 100
+for ((num=1; num<=100; num++));do
+    let mod1=$num%3
+    let mod2=$num%5
+    if [ $mod1 -eq 0 ] && [ $mod2 -eq 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $mod1 -eq 0 ]
+    then
+        echo "Fizz"
+    elif [ $mod2 -eq 0 ]
+    then
+        echo "Buzz"
+    else
+    echo $num
+    fi
+done
