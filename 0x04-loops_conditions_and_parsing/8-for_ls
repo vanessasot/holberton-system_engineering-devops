@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Use a ls command with a for loop
+list="$(ls)"
+for directory in $list; do
+    echo "$directory" | cut --complement -d "-" -f1
+done
