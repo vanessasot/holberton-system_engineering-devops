@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Show listening ports and PID and name of the programm.
+netstat -p -l tcp
