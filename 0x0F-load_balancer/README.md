@@ -1,1 +1,1 @@
-0x0F. Equilibrador de carga
+0x0F. Load balancer
