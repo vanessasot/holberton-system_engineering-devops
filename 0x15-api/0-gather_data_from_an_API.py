@@ -30,7 +30,7 @@ def show_todo_list(user, todos):
     for todos in todo_list:
         if todos['completed'] is True:
             n_done_tasks += 1
-            task_title += '\t' + todos['title'] + '\n'
+            task_title += '\t ' + todos['title'] + '\n'
     print('Employee {} is done with tasks({}/{}):'
           .format(employee_name, n_done_tasks, len(todo_list)))
     print(task_title, end='')
